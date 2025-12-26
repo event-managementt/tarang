@@ -2,39 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>TARANG'26 | Navgujarat BCA College</title>
+<title>Tarang'26 | Navgujarat BCA College</title>
+<link rel="shortcut icon" href="img/LOGO-1.png" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
   <div class="container">
-    
-    <div class="logo-wrapper">
-      <div class="logo">
-        <img src="img/LOGO-1.png" alt="Tarang Logo">
-      </div>
+    <div class="header-image">
+        <img src="img/LOGO-1.png" alt="Header Logo">
     </div>
 
-    <h1>Tarang'26</h1>
-    <p class="subtitle">Presented By NavGujarat BCA College</p>
-
+    <p class="header-desc">Presented By Navgujarat BCA College</p>
     <div class="event-list">
-
-      <div class="event" onclick="openForm('https://docs.google.com/forms/d/e/1FAIpQLSfQuQrF9LwWVdZV-tkdzf-yRyutYwhio7FuNjXkxqcK97_bsw/viewform?usp=dialog')">
-        <div class="event-left">
-          <img src="img/Free Fire.png" alt="FF">
-          <div class="event-info">
-            <span class="title">Free Fire</span>
-            <span class="tag">Esports</span>
-          </div>
-        </div>
-        <div class="icon-box"><i class="fa-solid fa-arrow-right"></i></div>
-      </div>
 
       <div class="event" onclick="openForm('https://forms.gle/zAc78AJAFVh6yCTb8')">
         <div class="event-left">
@@ -58,7 +40,18 @@
         <div class="icon-box"><i class="fa-solid fa-arrow-right"></i></div>
       </div>
 
-      <div class="event" onclick="openForm('https://forms.gle/ZRKyC8Cdt9XzTLmR6')">
+      <div class="event freefire-card" onclick="openForm('https://docs.google.com/forms/d/e/1FAIpQLSfQuQrF9LwWVdZV-tkdzf-yRyutYwhio7FuNjXkxqcK97_bsw/viewform?usp=dialog')">
+        <div class="event-left">
+          <img src="img/Free Fire.png" alt="FF">
+          <div class="event-info">
+            <span class="title">Free Fire</span>
+            <span class="tag">Esports</span>
+          </div>
+        </div>
+        <div class="icon-box"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+
+      <div class="event" onclick="openForm('talent-show.html')">
         <div class="event-left">
           <img src="img/The Talent Show.jpeg" alt="Talent">
           <div class="event-info">
@@ -81,13 +74,12 @@
       </div>
       
     </div>
-    <br><br>
-    <p style="font-size: 12px; border-bottom: 3px solid rgba(202, 196, 196, 0.604); border-radius: 12px; padding: 5px 18px; font-family: "Outfit", sans-serif;">For More Updates</p>
-    <div style="text-align: center; margin-top: 25px; margin-bottom: 20px;">
-        <div onclick="openForm('https://www.instagram.com/tarang.navgujbca/?igsh=MWdkbmVkYmk2d252eA%3D%3D#')" style="cursor: pointer; display: inline-flex; align-items: center; gap: 10px; padding: 10px 20px; background-color: #f0f0f0; border-radius: 30px; transition: 0.3s;">
-            <i class="fa-brands fa-instagram" style="font-size: 24px; color: #d62976;"></i>
-            <span style="font-family: 'Outfit', sans-serif; font-weight: 500; color: #333;"> Follow us on Instagram</span>
-        </div>
+
+    <p class="update-label">✨ For More Updates ✨</p>
+    
+    <div onclick="openForm('https://www.instagram.com/tarang.navgujbca/?igsh=MWdkbmVkYmk2d252eA%3D%3D#')" class="insta-btn">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Follow us on Instagram</span>
     </div>
 
   </div>
